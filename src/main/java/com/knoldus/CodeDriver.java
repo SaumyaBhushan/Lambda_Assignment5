@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class CodeDriver {
-    public static void main(String[] args) {
+    public static void main(String[] args)throws NullPointerException {
         GetDistinctStringsImpl str = new GetDistinctStringsImpl();
 
         System.out.println(str.get.distinctStrings(new ArrayList<>(Arrays.asList("java","java","c"))));
